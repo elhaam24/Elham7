@@ -5,7 +5,7 @@ public class PrimaryColor extends Colors {
 
 	public PrimaryColor(String colorName, int colorID, boolean isBright) {
 	    super(colorName, colorID);
-		this.isBright = isBright;
+	    this.isBright = isBright;
 	}
 
 	@Override
