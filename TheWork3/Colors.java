@@ -4,7 +4,7 @@ abstract class Colors {
 	int colorID;
 	
 	public Colors(String colorName,int colorID){
-		this.colorName = colorName;
+	this.colorName = colorName;
         this.colorID = colorID;
 	}
 	
