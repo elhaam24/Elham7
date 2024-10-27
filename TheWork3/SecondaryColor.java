@@ -5,7 +5,7 @@ public class SecondaryColor extends Colors {
 
 	public SecondaryColor(String colorName, int colorID, int transparencyLevel) {
 	        super(colorName, colorID);
-		          this.transparencyLevel = transparencyLevel;
+		this.transparencyLevel = transparencyLevel;
 	}
 
 	@Override
