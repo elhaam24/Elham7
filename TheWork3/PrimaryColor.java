@@ -10,7 +10,7 @@ public class PrimaryColor extends Colors {
 
 	@Override
 	public void PrintColor() {
-   String brightness = isBright ? "bright" : "dull";
+                String brightness = isBright ? "bright" : "dull";
 		System.out.println("Primary Color: " + colorName + " with ID: " + colorID + " is " + brightness);
 	}
 
