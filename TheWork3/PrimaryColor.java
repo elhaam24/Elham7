@@ -4,7 +4,7 @@ public class PrimaryColor extends Colors {
         boolean isBright;
 
 	public PrimaryColor(String colorName, int colorID, boolean isBright) {
-		      super(colorName, colorID);
+	    super(colorName, colorID);
 		this.isBright = isBright;
 	}
 
