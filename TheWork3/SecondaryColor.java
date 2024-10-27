@@ -10,13 +10,13 @@ public class SecondaryColor extends Colors {
 
 	@Override
 	public void PrintColor() {
-		System.out.println("Secondary Color: " + colorName + " the ID is: " + colorID + " with transparency level: " + transparencyLevel + "%");
+	    System.out.println("Secondary Color: " + colorName + " the ID is: " + colorID + " with transparency level: " + transparencyLevel + "%");
 		
 	}
 
 	@Override
-    public void adjustProperties() {
-                               System.out.println(colorName + " has a transparency level of " + transparencyLevel + "%.");
+        public void adjustProperties() {
+             System.out.println(colorName + " has a transparency level of " + transparencyLevel + "%.");
     }
 
 
