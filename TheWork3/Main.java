@@ -19,7 +19,6 @@ public class Main {
         colors.add(green);
 
        
-       
         ColorProcessor.processColors(colors);
 	}
 
