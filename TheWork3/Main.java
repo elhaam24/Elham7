@@ -6,7 +6,7 @@ import java.util.List;
 public class Main {
 
 	public static void main(String[] args) {
-		Colors red = new PrimaryColor("Red", 1, true);
+	Colors red = new PrimaryColor("Red", 1, true);
         Colors blue = new PrimaryColor("Blue", 2, false);
         Colors purple = new SecondaryColor("Purple", 3, 50);
         Colors green = new SecondaryColor("Green", 4, 75);
