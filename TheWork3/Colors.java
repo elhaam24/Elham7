@@ -9,7 +9,10 @@ abstract class Colors {
 	}
 	
 	 public abstract void PrintColor();
-	 
+
+         public void adjustProperties() {
+	      
+	    }
 	
 
 }
