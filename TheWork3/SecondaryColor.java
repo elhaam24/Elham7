@@ -1,11 +1,11 @@
 package TheWork3;
 
 public class SecondaryColor extends Colors {
-	int transparencyLevel;
+	           int transparencyLevel;
 
 	public SecondaryColor(String colorName, int colorID, int transparencyLevel) {
-		super(colorName, colorID);
-		this.transparencyLevel = transparencyLevel;
+	super(colorName, colorID);
+		          this.transparencyLevel = transparencyLevel;
 	}
 
 	@Override
@@ -16,7 +16,7 @@ public class SecondaryColor extends Colors {
 
 	@Override
     public void adjustProperties() {
-        System.out.println(colorName + " has a transparency level of " + transparencyLevel + "%.");
+                               System.out.println(colorName + " has a transparency level of " + transparencyLevel + "%.");
     }
 
 
