@@ -1,7 +1,7 @@
 package TheWork3;
 
 public class PrimaryColor extends Colors {
-	       boolean isBright;
+        boolean isBright;
 
 	public PrimaryColor(String colorName, int colorID, boolean isBright) {
 		      super(colorName, colorID);
